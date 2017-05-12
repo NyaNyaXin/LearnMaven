@@ -8,5 +8,7 @@
 </head>
 <body>
 	Good 
+	${pageContext.request.contextPath }
+	<br>
 </body>
 </html>
