@@ -5,15 +5,6 @@
 
 	<artifactId>Hello</artifactId>
 
-	<!-- 子工程中声明父工程 -->
-	<parent>
-		<groupId>com.cx.maven</groupId>
-		<artifactId>Parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		
-		<!-- 以当前文件为基准的父工程pom.xml文件的相对路径 -->
-		<relativePath>../Parent/pom.xml</relativePath>
-	</parent>
 
 	<properties>
 		<atguigu.spring.version>4.1.1.RELEASE</atguigu.spring.version>
