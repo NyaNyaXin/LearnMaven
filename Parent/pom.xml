@@ -5,6 +5,14 @@
 	<artifactId>Parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	
+	<!-- 配置聚合 -->
+	<modules>
+		<!-- 指定各个子工程的相对路径 -->
+		<module>../Hello</module>
+		<module>../HelloFriend</module>
+		<module>../MakeFriends</module>
+	</modules>
 
 	<!-- 配置依赖的管理 -->
 	<dependencyManagement>
@@ -17,5 +25,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
 
 </project>
